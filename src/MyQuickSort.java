@@ -16,8 +16,8 @@ public class MyQuickSort {
             arr[j]=arr[i];
         }
         arr[j]=tem;
-        quickSort(arr,begin,i-1);
-        quickSort(arr,i+1,end);
+        quickSort(arr,begin,j-1);
+        quickSort(arr,j+1,end);
     }
 
     public static void main(String[] a){
